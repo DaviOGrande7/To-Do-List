@@ -9,7 +9,6 @@ const TodoForm = ({ addTodo }) => {
     if(!value || !category) return;
     addTodo(value, category)
     setValue("");
-    setCategory("");
   }
 
   return (
